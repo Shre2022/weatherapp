@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("/weatherforcast/Asset/World-Country-Map.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1150px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(69, 2, 59, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top: 105px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 3px;
+    margin: 20px 0;
+    font-size: large;
+    border: 2px solid #d0c7c7;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ef99d1;
+    font-size: medium;
+    font-weight:bold;
+    border:rgba(222, 56, 219, 0.3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 350px) {
+    .card {
+      border-radius: 35px;
+      max-width: 320px;
+     }
+    }
